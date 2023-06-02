@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./components/contact";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import Services from "./components/services";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Stats />
       <Services />
+      <Contact />
     </>
   );
 }
