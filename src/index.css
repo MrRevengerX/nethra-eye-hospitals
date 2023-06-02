@@ -18,3 +18,16 @@
 html {
   user-select: none;
 }
+
+.service-card:hover {
+  @apply bg-nethraBlue;
+  @apply text-white;
+}
+
+.service-card:hover svg {
+  fill: white;
+}
+
+.service-card:hover div {
+  @apply bg-white;
+}
