@@ -6,6 +6,7 @@ export default {
     colors: {
       ...colors,
       nethraBlue: "#345CA1",
+      nethraBlueDark: "#173E81",
     },
     extend: {},
   },
