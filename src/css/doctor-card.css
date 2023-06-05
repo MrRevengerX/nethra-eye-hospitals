@@ -1,4 +1,6 @@
-.card:hover .schedule {
-  opacity: 100%;
-  top: 0;
+@media (min-width: 1024px) {
+  .card:hover .schedule {
+    opacity: 100%;
+    top: 0;
+  }
 }

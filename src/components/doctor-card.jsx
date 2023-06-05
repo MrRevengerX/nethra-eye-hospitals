@@ -5,7 +5,7 @@ import Doctor from "../assets/img/doctor.jpg";
 
 function DoctorCard() {
   return (
-    <div className="card max-w-xs outline outline-nethraBlue p-4 rounded-2xl lg:relative overflow-hidden">
+    <div className="card max-w-xs outline outline-nethraBlue p-4 rounded-2xl lg:relative lg:overflow-hidden">
       <div className="mb-6 lg:mb-0">
         <img
           src={Doctor}
@@ -28,6 +28,16 @@ function DoctorCard() {
           </div>
           <hr className="lg:opacity-50" />
 
+          <div className="flex justify-between px-3">
+            <p>monday</p>
+            <p>7.30AM - 6.30PM</p>
+          </div>
+          <hr className="lg:opacity-50" />
+          <div className="flex justify-between px-3">
+            <p>monday</p>
+            <p>7.30AM - 6.30PM</p>
+          </div>
+          <hr className="lg:opacity-50" />
           <div className="flex justify-between px-3">
             <p>monday</p>
             <p>7.30AM - 6.30PM</p>
