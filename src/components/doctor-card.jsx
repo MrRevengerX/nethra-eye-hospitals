@@ -1,8 +1,6 @@
 import React from "react";
 import "../css/doctor-card.css";
 
-import Doctor from "../assets/img/doctor.jpg";
-
 function DoctorCard(props) {
   return (
     <div className="card max-w-xs outline outline-nethraBlue p-4 rounded-2xl lg:relative lg:overflow-hidden min-w-[320px] ml-3 md:ml-6 lg:ml-3">
