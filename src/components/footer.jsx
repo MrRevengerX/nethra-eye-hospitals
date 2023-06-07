@@ -36,12 +36,7 @@ function Footer() {
           >
             Doctors
           </a>
-          <a
-            href=""
-            className="hover:text-blue-300 transition-colors duration-300 ease-in-out"
-          >
-            Gallery
-          </a>
+
           <a
             href=""
             className="hover:text-blue-300 transition-colors duration-300 ease-in-out"

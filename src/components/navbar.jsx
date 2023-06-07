@@ -27,12 +27,7 @@ function Navbar() {
         >
           Doctors
         </a>
-        <a
-          href=""
-          className="hover:text-nethraBlue transition-colors duration-300 ease-in-out"
-        >
-          Gallery
-        </a>
+
         <a
           href=""
           className="hover:text-nethraBlue transition-colors duration-300 ease-in-out"
