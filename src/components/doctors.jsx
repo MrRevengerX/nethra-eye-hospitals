@@ -2,41 +2,6 @@ import React from "react";
 import DoctorCard from "./doctor-card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
-
-// Create a disctionary with id, name, speciality
-const doctors = [
-  {
-    id: 1,
-    name: "Ravindu Senarathna",
-    speciality: "eye specialist",
-  },
-  {
-    id: 2,
-    name: "Devmal Amantha",
-    speciality: "skin specialist",
-  },
-  {
-    id: 3,
-    name: "Ravindu",
-    speciality: "Speciality",
-  },
-  {
-    id: 4,
-    name: "Ravindu",
-    speciality: "Speciality",
-  },
-  {
-    id: 5,
-    name: "Ravindu",
-    speciality: "Speciality",
-  },
-  {
-    id: 6,
-    name: "Ravindu",
-    speciality: "Speciality",
-  },
-];
 
 function Doctors(props) {
   const responsive = {
@@ -55,7 +20,10 @@ function Doctors(props) {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center flex-col px-5">
+    <div
+      className="min-h-screen flex items-center justify-center flex-col px-5"
+      id="doctors"
+    >
       <div className="text-center pb-8 lg:max-w-2xl lg:mx-auto">
         <h1 className="font-semibold text-4xl pb-3 lg:text-5xl">Doctors</h1>
         <p>

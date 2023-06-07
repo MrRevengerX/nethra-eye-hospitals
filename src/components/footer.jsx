@@ -25,26 +25,19 @@ function Footer() {
         </p>
         <div className="uppercase flex flex-wrap gap-x-4 gap-y-2 justify-center lg:gap-x-10">
           <a
-            href=""
+            href="#services"
             className="hover:text-blue-300 transition-colors duration-300 ease-in-out"
           >
             Services
           </a>
           <a
-            href=""
+            href="#doctors"
             className="hover:text-blue-300 transition-colors duration-300 ease-in-out"
           >
             Doctors
           </a>
-
           <a
-            href=""
-            className="hover:text-blue-300 transition-colors duration-300 ease-in-out"
-          >
-            About
-          </a>
-          <a
-            href=""
+            href="#contact"
             className="hover:text-blue-300 transition-colors duration-300 ease-in-out"
           >
             Contact Us
