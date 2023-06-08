@@ -19,7 +19,7 @@ function Hero() {
         </p>
       </div>
 
-      <div className="relative w-96 md:max-w-xl h-80 md:scale-90 md:h-96 lg:md:w-[500px] lg:order-1 lg:scale-90 lg:-ml-10">
+      <div className="relative w-96 md:max-w-xl h-80 md:scale-90 md:h-96 lg:md:w-[500px] lg:order-1 lg:scale-90 lg:-ml-10 drop-shadow-xl">
         <img
           src={heroImg1}
           className="rounded-2xl absolute top-0 right-9 scale-50 md:scale-75 lg:-left-9 lg:-top-14"
