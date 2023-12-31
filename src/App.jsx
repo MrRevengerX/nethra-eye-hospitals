@@ -10,9 +10,7 @@ import Stats from "./components/stats";
 
 import { GraphQLClient, gql } from "graphql-request";
 
-const graphAPI = new GraphQLClient(
-  "https://api-ap-south-1.hygraph.com/v2/cliloweee03p301rqebvk0fjd/master"
-);
+const graphAPI = new GraphQLClient(import.meta.env.VITE_HYGRAPH_PUBLIC_API);
 
 const QUERY = gql`
   {
@@ -44,7 +42,7 @@ function App() {
       .then((data) => {
         setDoctors(data.doctors);
       })
-      .catch((err) => console.log("fuck ", err));
+      .catch((err) => console.log("oops ", err));
   }, []);
   return (
     <>
